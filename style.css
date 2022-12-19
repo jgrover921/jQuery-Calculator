@@ -1,0 +1,55 @@
+body{
+    text-align: center;
+    background-image: url(./diamond-bg.jpg);
+}
+#title{
+    margin-top: 3%;
+    font-size: 78px;
+    font-family: Gabriola;
+    text-shadow: 2px 2px rgb(92, 113, 161);
+}
+   
+    
+
+button{
+    padding: 22px 32px;
+    border: solid 3px rgb(24, 26, 37);
+    border-radius: 15px;
+    background: lightgray;
+    color: black;
+    font-weight: bold;
+    
+}
+button:hover{
+background: black;
+color: whitesmoke;
+}
+
+#equals{
+    width: 20%;
+    margin-top: 2px;
+   
+    
+}
+#equals:hover{
+    background:green;
+    color: whitesmoke;
+}
+#clear:hover{
+    background: red;
+    color:whitesmoke;
+}
+
+#display{
+    height: 100px;
+    width: 20%;
+    border: solid 5px rgb(24, 26, 37);
+    border-radius: 15px;
+    margin-left: 39.6%;
+    font-size: 42px;
+    font-family: times;
+    
+    margin-bottom: 3px;
+    background: lightgray;
+    text-shadow: 2px 2px white;
+}
